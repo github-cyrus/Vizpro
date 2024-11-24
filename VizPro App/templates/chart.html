@@ -1,0 +1,13 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vizpro Chart</title>
+  </head>
+  <body>
+    <h1>Your Chart</h1>
+    <img src="data:image/png;base64,{{ plot_url }}">
+    <br><br>
+    <a href="{{ url_for('index') }}">Create another chart</a>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Vizpro</title>
+  </head>
+  <body>
+    <h1>Vizpro: Create Your Chart</h1>
+    <form action="{{ url_for('chart') }}" method="post">
+      <label for="values">Enter numeric values (comma-separated):</label><br>
+      <input type="text" id="values" name="values"><br><br>
+      <input type="submit" value="Generate Chart">
+    </form>
+  </body>
+</html>
